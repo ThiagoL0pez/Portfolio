@@ -1,0 +1,70 @@
+/* Import Url */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prompt:wght@100&family=Roboto:wght@400;700&family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap');
+
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin: 6px;
+
+}
+
+nav ul li {
+    margin: 8px;
+    
+}
+
+nav ul li a {
+    padding: 6px;
+    
+}
+
+
+div h5 {
+    font-size: 40px;
+    color: rgb(253, 60, 150);
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+}
+
+
+
+
+nav ul li a:hover {
+    background-color: rgb(252, 112, 168);
+    transition: .5s;
+    border-radius: 8px;
+    
+}
+
+h5 {
+    font-size: 26px !important;
+}
+
+
+footer {
+    background-color: rgb(252, 112, 168);
+    
+}
+
+.footer-span {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+footer span a{
+    margin: px;
+    text-decoration: none;
+}
+
+footer span a:hover{
+    color:  rgb(252, 112, 168);
+    border-radius: 12px;
+    transition: .7s;
+}
+
