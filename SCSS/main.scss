@@ -4,7 +4,7 @@
 * {
     padding: 0;
     margin: 0;
-}
+
 
 body {
     font-family: 'Manrope', sans-serif;
@@ -14,17 +14,17 @@ body {
 /* Menu nav  */
 
 nav {
-    margin: 6px;
+    margin: 12.5px;
 
 }
 
 nav ul li {
-    margin: 8px;
+    margin: 9.8px;
     
 }
 
 nav ul li a {
-    padding: 6px;
+    padding:9px;
     
 }
 
@@ -58,6 +58,13 @@ h5 {
    justify-content: center;   
 }
 
+
+
+.slider-image  {
+    padding: 45px !important;
+    margin: 15px;
+}
+
 /* Button */
 
 button {
@@ -69,6 +76,7 @@ button {
 
 #boton {
     padding: 0.75rem 1.5rem;
+    line-height: 20px;
     font-size: 1.25rem;
     border: none;
     border-radius: 0.5rem;
@@ -111,6 +119,16 @@ button a {
     border: 5px solid rgb(252, 112, 168);
 }
 
+/* About Me */
+#aboutme {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 95px;
+    margin-top: 56px;
+    text-decoration: solid;
+}
+
+
 
   
 
@@ -119,6 +137,12 @@ button a {
 footer {
     background-color: rgb(252, 112, 168);
     
+}
+
+.footer-copy {
+    font-size: 25px;
+    padding: 14px;
+    text-align: center;
 }
 
 .footer-span {
@@ -138,3 +162,4 @@ footer span a:hover{
     transition: .7s;
 }
 
+}
